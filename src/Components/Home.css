@@ -1,0 +1,15 @@
+
+
+/* Home.css */
+
+.post-paper {
+    padding: 20px;
+    transition: transform 0.3s ease; /* Update transition property */
+  }
+  
+  .post-paper:hover {
+    background-color: #f0f0f0;
+    transform: translateY(-5px); /* Translate post up by 5px */
+  }
+  
+  

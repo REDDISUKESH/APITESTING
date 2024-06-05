@@ -11,3 +11,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.container {
+  padding: 16px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 8px;
+  }
+}
+
+
+/* For screens up to 600px (mobile) */
+@media (max-width: 600px) {
+  .MuiTypography-h4 {
+    font-size: 1.5rem;
+  }
+  .MuiTypography-h6 {
+    font-size: 1.2rem;
+  }
+}
+
+/* For screens from 600px to 768px */
+@media (min-width: 601px) and (max-width: 768px) {
+  .MuiTypography-h4 {
+    font-size: 2rem;
+  }
+  .MuiTypography-h6 {
+    font-size: 1.3rem;
+  }
+}
+
+/* For screens from 769px to 1028px */
+@media (min-width: 769px) and (max-width: 1028px) {
+  .MuiTypography-h4 {
+    font-size: 2.5rem;
+  }
+  .MuiTypography-h6 {
+    font-size: 1.4rem;
+  }
+}
+
