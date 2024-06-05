@@ -1,4 +1,9 @@
 # Blog Application
+## Live Website Link
+[Visit the live website here](https://66608d004f2a363ffcf9bf09--luxury-froyo-3158e0.netlify.app/)
+
+You can access the live version of the website by clicking on the link above.
+
 ## How to run React app
 ### 1.npx create-react-app foldername
 ### 2.cd foldername
